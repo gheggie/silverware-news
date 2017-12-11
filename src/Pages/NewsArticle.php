@@ -65,6 +65,14 @@ class NewsArticle extends Page
     private static $icon = 'silverware/news: admin/client/dist/images/icons/NewsArticle.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_NewsArticle';
+    
+    /**
      * Defines the default sort field and order for this object.
      *
      * @var string

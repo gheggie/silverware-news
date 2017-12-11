@@ -67,6 +67,14 @@ class NewsCategory extends Page implements ListSource
     private static $icon = 'silverware/news: admin/client/dist/images/icons/NewsCategory.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_NewsCategory';
+    
+    /**
      * Defines the default child class for this object.
      *
      * @var string

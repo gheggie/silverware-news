@@ -71,6 +71,14 @@ class NewsArchive extends Page implements ListSource
     private static $icon = 'silverware/news: admin/client/dist/images/icons/NewsArchive.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_NewsArchive';
+    
+    /**
      * Defines the default child class for this object.
      *
      * @var string
