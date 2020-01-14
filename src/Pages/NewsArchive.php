@@ -267,6 +267,8 @@ class NewsArchive extends Page implements ListSource
      */
     public function getListItems()
     {
-        return $this->getArticles();
+        $list = $this->getArticles();
+        $this->extend('updateListItems', $list);
+        return $list;
     }
 }
